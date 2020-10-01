@@ -28,7 +28,7 @@ const startCounting = () => {
 const Timer =() => {
     t = setTimeout(startCounting, 1000);
 }
-Timer();
+
 
 start.addEventListener('click', () =>{
     Timer();
